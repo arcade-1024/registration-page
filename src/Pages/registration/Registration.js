@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Route } from "react-router-dom";
 
 import "./Registration.scss";
@@ -16,11 +16,6 @@ import accessAccount from "../../assets/icon/Access_account.svg";
 import secureLogin from "../../assets/icon/secure_login.svg";
 import secureSheild from "../../assets/icon/Security_on.svg";
 import toStar from "../../assets/icon/step_to_the_sun.svg";
-
-const Display = {
-	display: "block",
-	trasnition: "0.3s all",
-};
 
 const Registration = () => {
 	const [email, setEmail] = useState("");
